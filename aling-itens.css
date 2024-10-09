@@ -17,16 +17,25 @@ body{
 }
 .container{
     display: flex;
-    max-width: 360px;
+    max-width: 420px;
     margin: 0 auto;
     border: 1px solid #ccc;
 }
-.nowrap{
-flex-wrap: nowrap;
+.stretch{
+    align-items: stretch;
 }
-.wrap{
-    flex-wrap: wrap;
+.flex-start{
+    align-items:flex-start;
 }
-.wrap-reverse{
-    flex-wrap: wrap-reverse;
+.flex-end{
+    align-items: flex-end;
+}
+.center{
+    align-items: center;
+}
+.baseline{
+    align-items: baseline;
+}
+.item:first-child{
+    padding-top:20px;
 }
